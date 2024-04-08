@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.logoBox{
+    width: 102px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.formSection{
+    margin-top: 56px;
+    width: 90%;
+    
+}
+
+.pageTitle{
+    margin-left: 0;
+    width: 298px;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.pageTitle h1,p{
+    width: 100%;
+}
+
+form{
+    margin-top: 56px;
+}
+
+.inputWrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+}
+
+.inputWrapper svg{
+    position: absolute;
+    right: 10px;
+    top:10px;
+   
+}
+
+
+
+.wapperForInputAndSvg{
+    position: relative;
+    width: 100%;
+}
+
+.inputWrapper label{
+    width: 100%;
+}
+
+.inputWrapper input{
+    color: #CBCCE8;
+    border: 1px solid #CBCCE8;
+    outline: none;
+    width: 100%;
+    height: 44px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+input::placeholder{
+    color: #667085;
+}
+
+
+.retrievePassword{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.rememberMe{
+    margin-left: 0;
+}
+
+.forgotPassword{
+    display: flex;
+    margin-right: 0;
+}
+
+
+
+input[type="submit"]{
+    width: 100%;
+    height: 44px;
+    margin-top: 30px;
+    background: #5429FF;
+    color: white;
+    border-radius: 8px;
+}
+
+.signupTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 20vh;
+    margin-top: 8px;
+}
+
+.googleSignIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+
+.signUpButton{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+}
+
+
+
+.camp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.spacebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.imageFrame{
+    display: none;
+}
+
+
+
+                                 /* For Laptop or small-size screen */
+
+@media screen and (min-width:768px){
+    .pageWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageFrame{
+        display: block;
+        margin-right: 20px;
+        width: 50%;
+        /* max-width: 308px; */
+        height: 896px;
+        margin-top: 20px;
+        background: url("./assets/DRIP_20.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #CBCCE8;
+        border-radius: 20px;
+    }
+
+    .signupTwo{
+        width: 60%;
+    }
+
+    .formPageWrapper{
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 50%;
+        height: 896px;
+        
+        
+    }
+
+
+    .logoBox{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 0;
+        width: 146px;
+        height: 32px;
+    }
+
+    .formSection{
+        margin-top: 80px;
+        width: 80%;
+    }
+
+    .signupTwo{
+        width: 80%;
+    }
+
+    .spacebar{
+        display: none;
+    }
+}
+
+
+                           /* Desktop, large-size screen and Extra-large size device */
+
+@media screen and (min-width:1200px) {
+
+
+    .imageFrame{
+        display: block;
+        /* width: 50%; */
+        width: 768px;
+        height: 700px;
+        margin-top: -100px;
+        background-image: url("./assets/DRIP_20.png");
+        background-color: #CBCCE8;
+        border-radius: 40px;
+    }
+
+    .formPageWrapper{
+        margin-top: 25px;
+
+        width: 50%;
+        height: 896px;
+        
+        
+    }
+
+    .logoBox{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 0;
+        width: 146px;
+        height: 32px;
+    }
+
+    .formSection{
+        margin-top: 120px;
+        width: 60%;
+    }
+
+    .signupTwo{
+        width: 60%;
+    }
+
+    .spacebar{
+        display: none;
+    }
+}
