@@ -9,3 +9,11 @@ closeEyeIcon.onclick = function(){
         passwordTag.type = "password"
     }
 }
+
+//clear email text
+let clearEmailTextIcon = document.getElementById('clearButton');
+let emailTag = document.getElementById('emailInput')
+
+clearEmailTextIcon.onclick = function(){
+    emailTag.value = ""
+}
