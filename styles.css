@@ -13,24 +13,22 @@
     justify-content:space-between;
     align-items: center;
     text-align: center;
-    margin-top: 88px;
+    margin-top: 20px;
 }
 
 .formSection{
-    margin-top: 56px;
-    width: 90%;
-    
+    margin-top: 20px;
+    width: 60%;
 }
 
 .pageTitle{
     margin-left: 0;
     width: 298px;
-    height: 71px;
+    height: 61px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    
 }
 
 .pageTitle h1,p{
@@ -38,7 +36,7 @@
 }
 
 form{
-    margin-top: 56px;
+    margin-top: 34px;
 }
 
 .inputWrapper{
@@ -106,12 +104,15 @@ input::placeholder{
 
 
 input[type="submit"]{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 44px;
     margin-top: 30px;
-    background: #5429FF;
     color: white;
     border-radius: 8px;
+    background: #5429ff;
+    border: 0;
 }
 
 .signupTwo{
@@ -119,8 +120,8 @@ input[type="submit"]{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 90%;
-    height: 20vh;
+    width: 100%;
+    height: 18vh;
     margin-top: 8px;
 }
 
@@ -143,6 +144,7 @@ input[type="submit"]{
     align-items: center;
     width: 100%;
     height: 44px;
+    
 }
 
 
@@ -167,6 +169,10 @@ input[type="submit"]{
 }
 
 
+.signupTwo{
+    height: 16vh;
+}
+
 
                                  /* For Laptop or small-size screen */
 
@@ -176,6 +182,7 @@ input[type="submit"]{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+       
     }
 
     .imageFrame{
@@ -183,8 +190,9 @@ input[type="submit"]{
         margin-right: 20px;
         width: 50%;
         /* max-width: 308px; */
-        height: 896px;
+        height: 100vh;
         margin-top: 20px;
+        /* margin-top: 20px; */
         background: url("./assets/DRIP_20.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -194,16 +202,14 @@ input[type="submit"]{
     }
 
     .signupTwo{
-        width: 60%;
+        width: 100%;
     }
 
     .formPageWrapper{
         margin-top: 25px;
         margin-left: 20px;
         width: 50%;
-        height: 896px;
-        
-        
+        height: 100vh;   
     }
 
 
@@ -217,12 +223,12 @@ input[type="submit"]{
     }
 
     .formSection{
-        margin-top: 80px;
-        width: 80%;
+        margin-top: 20px;
+        width: 90%;
     }
 
     .signupTwo{
-        width: 80%;
+        width: 100%;
     }
 
     .spacebar{
@@ -240,21 +246,23 @@ input[type="submit"]{
         display: block;
         /* width: 50%; */
         width: 768px;
-        height: 700px;
-        margin-top: -100px;
+        height: 100vh;
+        margin-top: 20px;
         background-image: url("./assets/DRIP_20.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-position-y: -50px;
         background-color: #CBCCE8;
         border-radius: 40px;
     }
 
     .formPageWrapper{
         margin-top: 25px;
-
         width: 50%;
-        height: 896px;
-        
-        
+        height: 100vh;   
     }
+
 
     .logoBox{
         display: flex;
@@ -266,12 +274,12 @@ input[type="submit"]{
     }
 
     .formSection{
-        margin-top: 120px;
-        width: 60%;
+        margin-top: 40px;
+        width: 90%;
     }
 
     .signupTwo{
-        width: 60%;
+        width: 100%;
     }
 
     .spacebar{
